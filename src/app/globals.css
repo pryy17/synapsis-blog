@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.blur-background {
+  filter: blur(8px); /* Efek blur pada latar belakang */
+  pointer-events: none; /* Tidak bisa diinteraksi */
+}
